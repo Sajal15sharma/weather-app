@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import WeatherCard from './WeatherCard';
+import { useRef, useState } from 'react';
 import './App.css';
+import WeatherCard from './WeatherCard';
 
 function App() {
   const [city, setCity] = useState('');
