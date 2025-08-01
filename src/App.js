@@ -40,8 +40,8 @@ const handleKeyDown = (e) => {
     <audio ref={audioRef} src="/sounds/storm.mp3" loop />
     <div className={darkMode ? 'app dark' : 'app'}>
       <button onClick={() => setDarkMode(!darkMode)}>
-  {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
-</button>
+   {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+    </button>
       <h1>🌤️ Weather App</h1>
       <input
         type="text"
